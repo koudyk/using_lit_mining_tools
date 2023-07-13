@@ -1,3 +1,6 @@
+# large data files
+data/pubget_parkinsons/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

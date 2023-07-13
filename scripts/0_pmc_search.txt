@@ -1,0 +1,41 @@
+(
+    "dwi"[Abstract]
+    OR
+    "diffusion"[Abstract]
+    OR
+    "diffusion weighted imaging"[Abstract]
+    OR
+    "diffusion tensor imaging"[Abstract]
+    OR
+    "dti"[Abstract]
+    OR
+    "diffusion tensor images"[Abstract]
+    OR
+    "diffusion weighted images"[Abstract]
+    OR
+    "mri"[Abstract]
+    OR
+    "anatomiacal"[Abstract]
+    OR
+    "structural"[Abstract]
+    OR
+    "magnetic resonance imaging"[Abstract]
+    OR
+    "smri"[Abstract]
+    OR
+     "mr imaging"[Abstract]
+    OR
+     "mr images"[Abstract]
+    OR
+    "*-weighted imaging"[Abstract]
+    OR
+    "functional magnetic resonance imaging"[Abstract]
+    OR
+    "functional MRI"[Abstract]
+    OR
+    "fmri"[Abstract]
+)
+AND
+(
+    "parkinson*"[Title]
+)
