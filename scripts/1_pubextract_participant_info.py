@@ -23,3 +23,13 @@ annotated = list(_information_extraction.annotate_labelbuddy_docs(docs_list_dict
 datafile = Path(__file__).resolve().parents[1] / "data" / "pubextract_annotations.jsonl"
 df = pd.DataFrame(annotated)
 df.to_json(datafile, lines=True, orient='records')
+
+datafile_la = (
+    Path(__file__).resolve().parents[2] 
+    / "labelbuddy-annotation"
+    / "projects"
+    / "parkinsons"
+    / "annotations"
+    / "pubextract_annotations.jsonl"
+)
+df.to_json(datafile, lines=True, orient='records')

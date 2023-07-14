@@ -29,7 +29,7 @@ df = df.dropna()
 
 
 detect_entities = spacy.load("en_core_web_sm")
-cities_path = Path(__file__).resolve().parent / "data" / "worldcities.csv"
+cities_path = Path(__file__).resolve().parents[1] / "data" / "worldcities.csv"
 cities = pd.read_csv(cities_path)
 countries_set = set(list(cities["country"]))
 countries_set = {x for x in countries_set if pd.notna(x)}
